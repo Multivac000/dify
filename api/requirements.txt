@@ -7,7 +7,7 @@ Flask-Compress~=1.14
 flask-login~=0.6.3
 flask-migrate~=4.0.5
 flask-restful~=0.3.10
-flask-cors~=4.0.0
+flask-cors~=6.0.0
 gunicorn~=21.2.0
 gevent~=23.9.1
 langchain==0.0.250
@@ -75,3 +75,5 @@ qrcode~=7.4.2
 grpcio>=1.56.2 # not directly required, pinned by Snyk to avoid a vulnerability
 pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
 aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
