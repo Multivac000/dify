@@ -1,5 +1,5 @@
 # base image
-FROM python:3.13-rc-slim-bookworm AS base
+FROM python:3.15-rc-slim-bookworm AS base
 
 LABEL maintainer="takatost@gmail.com"
 
